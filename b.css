@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background:rgba(214, 214, 214, 1);
+}
+
+/* Header */
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 1.5\rem 8%;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  background-color: rgba(44, 43, 48, 1);
+}
+.header .logo{
+  font-size: 20px;
+  font-weight: bolder;
+  /* color: #fff; */
+  padding-right: 10px;
+  margin-right: 10rem;
+  /* background: -webkit-linear-gradient(rgba(242, 196, 206, 1),rgba(245, 143, 124, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color:  #3498db;
+}
+/* .header .logo i{
+  color: #fff;
+  padding: 0.5rem;
+} */
+.header .navbar a{
+  font-size: 1.1rem;
+  margin: 0 1rem;
+  color: #fff;
+}
+.header .navbar a:hover{
+  color: #3498db;;
+}
+.header .btn{
+  background: transparent;
+  color: tomato;
+  border: 1px solid tomato;
+  font-size: 12px;
+  padding: 8px;
+}
+
+:root {
+    --theme-orange: orange;
+    --theme-purple: purple;
+    --theme-tomato: tomato;
+    --theme-navy: navy;
+    --theme-teal: rgb(147, 70, 134);
+    --theme-gray: rgba(128, 128, 128, 0.071);
+    --theme: var(--theme-gray);
+  }
+
+  
+  .t-orange {
+    --theme: var(--theme-orange);
+  }
+  
+  .t-purple {
+    --theme: var(--theme-purple);
+  }
+  
+  .t-tomato {
+    --theme: var(--theme-tomato);
+  }
+  
+  .t-navy {
+    --theme: var(--theme-navy);
+  }
+  
+  .t-teal {
+    --theme: var(--theme-teal);
+  }
+  
+  .t-gray {
+    --theme: var(--theme-gray);
+  }
+ 
+  .c-card {
+    padding: 2rem;
+    margin: 2rem;
+    max-width: 700px;
+    background: #eee;
+    border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: var(--theme);
+  }
+    .c-card__heading {
+      margin-top: 0;
+      color: var(--theme);
+    }
+  
+  

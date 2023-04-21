@@ -1,0 +1,11 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+body {
+    margin: 0 auto;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/57c55c11301475.560f566d70870.jpg");
+     /* background-repeat: no-repeat; */
+    background-size: 1300px;
+}

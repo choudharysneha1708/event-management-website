@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="event.css" />
+    <title>event host</title>
+  </head>
+   <body>
+    <div class="wrapper">
+      <div class="title-text">
+        <!-- <div class="title login">Login Form</div> -->
+        <div class="title signup">HOST YOUR EVENT</div>
+      </div>
+       <div class="form-container"> 
+        <div class="slide-controls">
+          <!-- <input type="radio" name="slide" id="login" checked> -->
+          <input type="radio" name="slide" id="signup">
+          <!-- <label for="login" class="slide login">Login</label> -->
+          <label for="signup" class="slide signup">Detail of Event</label>
+          <!-- <div class="slider-tab"></div> -->
+         </div> 
+         <div class="form-inner">
+          
+
+
+          <form  id="host1" action="#" class="signup">
+            <div class="field">
+              <label for="firstName">Name</label>
+          <input type="text" name="name" id="firstName" placeholder="Optimus Prime">
+            </div>
+            <div class="field">
+              <label for="textarea">Description</label><br>
+              <input type="text" name="textarea" id="description" placeholder="Tell us about event...">
+            </div>
+
+            <div class="field">
+              <input type="file" id="dp" accept="image/*" onchange="imageSet(event)">
+            </div>
+            
+            <div class="field">
+              <label for="textarea">hackathon period</label><br>
+              <input id="date1" type="datetime-local" />
+               <input id="date2" type="datetime-local" />
+            </div>
+            <div class="field">
+              <label for="textarea">Registeration period</label><br>
+              <input id="date3" type="datetime-local" />
+              <input id="date4" type="datetime-local" />
+            </div>
+            <div class="field btn">
+              <div class="btn-layer"></div>
+              <input id="formSub" type="submit" value="HOST">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      const islogin=false;
+      const ishome=false;
+      const ishost=true;
+      const isprofile=false;
+      const iseventreg=true;
+      const isevedetail=false;
+    </script>
+    <script src="event.js"></script>
+    <script type="module" src="../firebase.js"></script>
+    </body>
+</html>
